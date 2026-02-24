@@ -1,0 +1,21 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+public class Character2
+{
+    private string name;
+    private int level;
+
+    public void SetInfo(string name, int level)
+    {
+        this.name = name;
+        this.level = level;
+    }
+
+    public void ShowInfo()
+    {
+        Console.WriteLine($"이름: {name}");
+        Console.WriteLine($"레벨: {level}");
+    }
+}
